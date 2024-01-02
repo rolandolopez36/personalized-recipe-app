@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header, footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1, h2 {
+    color: #4a4a4a;
+}
+
+/* Header Styles */
+header {
+    border-bottom: 1px solid #eaeaea;
+}
+
+/* Footer Styles */
+footer {
+    border-top: 1px solid #eaeaea;
+    font-size: 0.8em;
+    color: #6c757d;
+}
+
+/* Main Section Styles */
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Search Section Styles */
+#search-section {
+    margin-bottom: 2em;
+}
+
+#ingredient-input {
+    padding: 0.5em;
+    margin-right: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#search-button {
+    background-color: #ff6347; /* Tomato color for a gastronomy touch */
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #e55335;
+}
+
+/* Recipe Display Section Styles */
+#recipe-display {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 4px;
+}
+
+#recipes-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        padding: 1em;
+    }
+
+    #ingredient-input {
+        width: 100%;
+        margin-bottom: 0.5em;
+    }
+
+    #search-button {
+        width: 100%;
+    }
+}
